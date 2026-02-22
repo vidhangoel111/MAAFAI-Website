@@ -1,0 +1,111 @@
+.page {
+  min-height: 100vh;
+  background: var(--bg-dark);
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: calc(100vh - 70px);
+}
+
+.card {
+  background: var(--bg-card);
+  padding: 2.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 40px rgba(255, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.card h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.75rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+  color: var(--white);
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: var(--gray);
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.field label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--gray-light);
+}
+
+.field input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 1rem;
+  background: var(--bg-dark);
+  color: var(--white);
+}
+
+.field input:focus {
+  outline: none;
+  border-color: var(--red);
+}
+
+.error {
+  color: var(--error);
+  font-size: 0.9rem;
+}
+
+.submit {
+  background: var(--red);
+  color: var(--white);
+  padding: 0.875rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.submit:hover:not(:disabled) {
+  background: var(--red-dark);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.hint {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--gray);
+  text-align: center;
+}
+
+.back {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.back a {
+  color: var(--gold);
+}
+
+.back a:hover {
+  color: var(--gold-light);
+}

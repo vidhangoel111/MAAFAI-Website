@@ -1,0 +1,41 @@
+{
+  "students": [
+    {
+      "id": 4,
+      "name": "Vidhan",
+      "email": "vidhan@gmail.com",
+      "password": "vidhan123",
+      "role": "student",
+      "status": "approved",
+      "batchId": null,
+      "coachId": 1,
+      "attendance": 0,
+      "feeStatus": "Pending"
+    }
+  ],
+  "batches": [],
+  "admins": [
+    {
+      "id": 1,
+      "email": "admin@maaai.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "coach@maaai.com",
+      "password": "coach123",
+      "name": "Coach Demo",
+      "role": "admin"
+    }
+  ],
+  "content": {
+    "aboutUs": "",
+    "batchDetails": "",
+    "awards": ""
+  },
+  "nextStudentId": 5,
+  "nextBatchId": 4,
+  "nextAdminId": 3
+}

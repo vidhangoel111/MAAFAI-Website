@@ -1,0 +1,101 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dashboard {
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem;
+}
+
+.dashboard h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+
+.welcome {
+  margin-bottom: 2rem;
+}
+
+.welcome h2 {
+  font-size: 1.35rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.email {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.info {
+  margin-bottom: 2rem;
+}
+
+.info h3,
+.navOptions h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+.info ul {
+  list-style: none;
+}
+
+.info li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.info li:last-child {
+  border-bottom: none;
+}
+
+.navOptions .buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.navBtn {
+  background: var(--primary);
+  color: var(--white);
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.navBtn:hover {
+  background: var(--primary-dark);
+}
+
+.logoutBtn {
+  background: var(--text-muted);
+  color: var(--white);
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.logoutBtn:hover {
+  background: var(--text);
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted);
+}
