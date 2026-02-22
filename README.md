@@ -18,18 +18,6 @@ A fully functional academy management demo with React frontend and Node.js/Expre
 | **Admin/Coach** | Login → Manage pending requests, students, batches |
 | **Public** | View landing page, request student access |
 
-## Demo Credentials
-
-### Admin
-| Email | Password |
-|-------|----------|
-| admin@maaai.com | admin123 |
-| coach@maaai.com | coach123 |
-
-### Student (pre-approved)
-| Email | Password |
-|-------|----------|
-| student@maaai.com | student123 |
 
 ## Flow
 
@@ -106,3 +94,4 @@ Frontend: **http://localhost:5173**
 - Data persists in `backend/data/data.json`
 - Sessions are in-memory (reset on server restart)
 - Old `/api/login` and `/api/user` remain for backward compatibility
+
