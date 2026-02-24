@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920') center/cover no-repeat;
+  background: url('https://media.istockphoto.com/id/92148943/photo/boxers-in-action.jpg?s=612x612&w=0&k=20&c=fevkDjGx4LQgQVB0SYSBL_1A63h_wTUXR3sY3beyFsU=') center/cover no-repeat;
 }
 
 .heroOverlay {
@@ -165,3 +165,4 @@
 .list li {
   margin-bottom: 0.5rem;
 }
+
